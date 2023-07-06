@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+:root{
+    --fundo:#7d94ee;
+    --cor1:rgb(30, 30, 255);
+    --cor2:rgb(0, 0, 126);
+    --h2: #0024b4;
+    --extra:#7088CC;
+}
+
+body{
+    background-color: #7d94ee;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(30, 30, 255), rgb(150, 150, 252));
+    padding: 10px;
+    margin: -8px;
+    
+}
+
+header > h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 
+    'Arial Narrow Bold', sans-serif;
+    text-shadow: black;
+    padding: 0px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:  center;
+    font-size: larger;
+    padding: 20px;
+    margin: 25px;
+}
+
+#sitedc{
+    text-decoration: none;
+    color: rgb(30, 30, 255);
+}
+
+#lojadc{
+    color: rgb(0, 0, 126);
+    text-decoration: none;
+    font-size: normal;
+}
+
+nav{
+    font-size: small;
+    padding: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+main{
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+}    
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: #0024b4;
+    text-align: justify;
+    margin: 10px;
+}
+
+main > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    text-align:   justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.parte1{
+    text-align: center;
+}
+
+.parte2{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    margin: 50px;
+    
+}
+ footer > p{
+    color: white;
+ }
+
+#videowumpus{
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(30, 30, 255), rgb(150, 150, 252));
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 55%;
+}
+#videowumpus > iframe{
+    position: absolute ;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.extra{
+    background-color:var(--extra);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px black;
+    
+}
+
+.extra > p{
+    text-align: left;
+}
+
+.extra > h3{
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(54, 54, 190);
+    color: black;
+}

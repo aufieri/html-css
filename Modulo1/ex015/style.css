@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+body{
+    
+    background-color: cornsilk;
+    font-family: monospace;
+    font-size: 20px;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(177, 68, 34);
+}
+p{
+    text-align: justify;
+}
