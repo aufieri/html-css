@@ -4,3 +4,5 @@
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 <a href="https://aufieri.github.io/html-css/Modulo1/ex001"> Executar exercicio 1 </a>
+
+<a href="https://aufieri.github.io/html-css/Projetos/Site.mascote/"> Executar site do Wumpus </a>
